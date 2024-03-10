@@ -67,21 +67,54 @@
                     <strong> AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE! </strong> 
                 </div>
                 <div id="ing2">
-                    <img src="qui.svg" alt="">
-                    <img src="sex.svg" alt="">
-                    <img src="sab.svg" alt="">
-                    <img src="dom.svg" alt="">
+                    <img 
+                        class = "cards-ingressos"
+                        src="qui.svg" 
+                        onclick="selectCard('#quinta')"
+                        onmouseover="highlightCard('#quinta')" 
+                        onmouseout="highlightCard('#quinta')" 
+                        id="quinta" alt="">
+                    <img 
+                        class = "cards-ingressos"
+                        src="sex.svg" 
+                        onclick="selectCard('#sexta')"
+                        onmouseover="highlightCard('#sexta')" 
+                        onmouseout="highlightCard('#sexta')" 
+                        id="sexta" alt="">
+                    <img 
+                        class = "cards-ingressos"
+                        src="sab.svg" 
+                        onclick="selectCard('#sabado')"
+                        onmouseover="highlightCard('#sabado')" 
+                        onmouseout="highlightCard('#sabado')" 
+                        id="sabado" alt="">
+                    <img 
+                        class = "cards-ingressos"
+                        src="dom.svg" 
+                        onclick="selectCard('#domingo')"
+                        onmouseover="highlightCard('#domingo')" 
+                        onmouseout="highlightCard('#domingo')" 
+                        id="domingo" alt="">
                 </div>
             </div>
             <div class="horadacompra">
-                <button id="ticket"> GARANTA O SEU! </button>
+                <button onclick="showSelectCards()" id="ticket"> GARANTA O SEU! </button>
             </div>
         </div>
     </section>
+
+    <div>
+        <form action="https://www.google.com">
+            <input type="email" placeholder="Seu email" required />
+            <input type="submit"/>
+        </form>
+    </div>
+
     <script src="cronometro.js"></script>
+    <script src="main.js"></script>
     
     <a href="https://www.quackit.com" title="Best tutorials on the web!">Quackit Tutorials</a>
-    <a href="https://dncgroupbr.notion.site/Material-de-Apoio-PM-f8ad1ed4836346cfafd785e600852122"> DNC Material de apoio </a>
+    <a href="https://www.w3schools.com/"> w3schools  </a>
 
 </body>
 </html>
