@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(246, 238, 238);
+    color: rgb(15, 15, 15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+header{
+    background-color: rgb(244, 244, 10);
+    color: rgb(18, 18, 1);
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    margin-top: 20px;
+    }
+
+.container {
+    display: flex;
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 90px;
+    margin-top: 20px;
+}
+
+.timer {
+    width: 615px;
+    height: 400px;  
+    padding: 5px;
+    flex:1;   
+}
+
+.descricao {
+    text-align: center;
+    text-align-last:center;
+    background-color: #514988;
+    color:white;
+    width: 615px;
+    height: 500px;  
+    padding: 5px;
+    flex:1;
+}
+
+.container2 {
+    display: flex;
+}
+
+.ingressos {
+    flex: 1;
+}
+
+.horadacompra {
+    flex:1;
+    margin-left: 15%;
+    margin-top: 7%;  
+}
+
+#ticket {
+    width: 300px;
+    height: 80px;
+    background-color: #514988;
+    color: white;
+    font-size: large;
+    border-radius:20px;
+}
+
+#ticket:hover{
+        background-color: yellow;
+        cursor: pointer;
+        transition: 0.2s;
+        color: blueviolet;
+    }
+
+.sec2 {
+    padding:20px;
+}
+
+#intro {
+    padding: 40px;
+}
+
+.sec1 {
+    
+    color:blue;   
+}
+
+#titulo {
+    color:rgb(244, 244, 10);
+    font-size:xx-large;
+}
+
+#aviso {
+    margin-bottom: 0%;
+}
+
+#ing2 {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    padding: 10px;
+    margin-left: 0%;
+}
